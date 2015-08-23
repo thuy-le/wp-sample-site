@@ -1,0 +1,14 @@
+<?php
+
+	$greenr_home = array(
+		'slide' => GREENR_PARENT_URL .'/images/slide1.png',
+		'caption' => __('<h1>Heading Level 1</h1><h2>Heading Level 2</h2><p>There are many variations of passages of Lorem Ipsum available
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>','greenr'),
+        'info' => __('<div class="one-third column"><img src="' . get_template_directory_uri() . '/images/info.png"></div><div class="two-thirds column"><h2>There are many variations of passages of Lorem Ipsum available</h2><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using "Content here, content here", making it look like readable English.</p><div class="row"><div class="eight columns"><h2>Branding Design</h2><p>Duis blandit eget leo eu interdum. Mauris accumsan euismod aliquet. Phasellus quis mi vitae orci tempor tempus vel sit amet nulla. Fusce gravida ligula et felis ultricies, lobortis interdum est ultrices. Praesent commodo justo eget sapien ornare hendrerit. Cras consequat lobortis velit, et hendrerit sapien. Sed commodo vel sem a convallis.</p><a href="#">Keep Reading</a></div><div class="eight columns"><h2>Web Development</h2><p>Duis blandit eget leo eu interdum. Mauris accumsan euismod aliquet. Phasellus quis mi vitae orci tempor tempus vel sit amet nulla. Fusce gravida ligula et felis ultricies, lobortis interdum est ultrices. Praesent commodo justo eget sapien ornare hendrerit. Cras consequat lobortis velit, et hendrerit sapien. Sed commodo vel sem a convallis.</p><a href="#">Keep Reading</a></div></div></div>', 'greenr'),
+        'testimonial-client' => __('<div class="container gap"><div class="testimonials"><ul class="slides"><li><div class="testimony"><img src="'. get_template_directory_uri() . '/images/client.png"><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum blandit ex a erat aliquet.</p><p class="client"><strong>Lord Varys</strong>, Spy Master, Iron Throne</p></div></li></ul><br class="clear"/></div></div>','greenr'),
+        'service-icon' => 'fa fa-cogs',
+        'service-title' => __('Multi Purpose', 'greenr'),
+        'service-description' => __('<p>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>', 'greenr'),
+        'cta-info' => __('<div class="callout-widget"><div class="call-content"><p>Vestibulum dapibus, elis id lacinia efficitur, ex mi iaculis ipsum, ac posuere dui tellus a odio. </p></div><div class="callout-btn"><a href="http://www.webulous.in/?add-to-cart=27">Purchase Now</a></div><br class="clear"></div>', 'greenr'),
+);
